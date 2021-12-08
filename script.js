@@ -109,3 +109,10 @@ document.getElementById('previous').addEventListener('click',()=>{
     gif.style.opacity=1;
     audioElement.play();
 })
+
+document.getElementById('mute').addEventListener('click',()=>{
+    audioElement.volume=0;
+})
+document.getElementById('unmute').addEventListener('click',()=>{
+    audioElement.volume=1;
+})
